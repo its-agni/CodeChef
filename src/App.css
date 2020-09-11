@@ -1,38 +1,137 @@
-.App {
-  text-align: center;
+.App{
+  font-family: 'Raleway', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.link_my{
+  font-weight: 600;
+  font-size: 20px;
+  color: grey;
+  text-decoration: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+ .link_my:hover{
+
+  font-weight:bold;
+  text-decoration:inherit;
+  color: #713e20;
+
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .active{
+    color: #713e20;
+    font-weight:bold;
   }
-  to {
-    transform: rotate(360deg);
+
+  
+
+  #head{
+    font-weight:1000;
+    color:#713e20;
+    font-size:60px;
+    margin-top:100px;
+    margin-left: 150px;
   }
+
+  .sept{
+    font-weight: bold;
+    color: #713e20;
+  }
+
+  #head-text{
+    margin-left: 150px;
+  }
+
+  #head-social{
+    margin-left: 135px;
+    margin-top: 60px;
+  }
+
+  #social{
+    color: #713e20;
+    text-decoration:none;
+  }
+
+  .landing{
+    margin-bottom: 120px;
+  }
+
+  #about{
+    font-weight:1000;
+    color:#713e20;
+    font-size:50px;
+    margin-top:50px;
+  }
+
+  #aboutus{
+    margin-left:150px;
+    margin-right:150px;
+    font-size:20px;
+    margin-top:40px;
+    margin-bottom: 40px;
+  }
+
+  .domaincard{
+    margin-top: 100px;
+    margin-bottom: 40px;
+  }
+
+  .card-title{
+    font-weight: 800;
+    text-align: center;
+  }
+
+  .card{
+    border-radius: 25px;
+  }
+
+  .domaincards:hover{
+    transform: translate3D(0,-1px,0) scale(1.03); /* move up slightly and zoom in */
+  box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+  transition: all .4s ease; /* zoom in */
+  cursor: pointer;
+
+  }
+
+#line{
+  margin-left:150px;
+  margin-right: 150px;
+  color: #713e20;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+.fa{
+  color: #713e20;
+  text-decoration:none;
+}
+
+.team{
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
+.contain{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.event{
+  font-weight: bold;
+  color: #713e20;
+}
+
+#eventdes{
+  margin-left:400px;
+  margin-right:400px;
+  margin-top:40px;
+  margin-bottom: 40px;
+}
+
+#all{
+  color: #713e20;
+  font-weight: 800;
+  font-size: 40px;
+  margin-top: 30px;
+  margin-bottom: 40px;
 }
